@@ -1,0 +1,13 @@
+.container{
+  margin: 10px;
+    text-align: center;
+    padding: 0 5%;
+  }
+  .Link{
+    margin-top: 10px;
+  }
+  .Link a{
+    color: rgb(180, 68, 16);
+    padding: 0 20px;
+    font-weight: 600;
+  }

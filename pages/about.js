@@ -6,11 +6,11 @@ const about = () => {
         <Head>
           <title>Next.js | About</title>
         </Head>
-        <div>
-            <h1>
-                About 
-            </h1>
-        </div>
+        <div className='container'>
+      <h1 className='titleHome' >About</h1>
+      <p>Lorem ipsum dolor sit amet, pro oratio soleat cu, duis invidunt at nec. Id has omnis quando putent, duo ne ullum dicta. Et dolores postulant pro, natum tollit ancillae ne eum, detracto aliquando sea te. Dico case an ius. Nec graeci tibique ad, eos no nostrud admodum.</p>
+      <p>pro oratio soleat cu, duis invidunt at nec. Id has omnis quando putent, duo ne ullum dicta. Et dolores postulant pro, natum tollit ancillae ne eum, detracto aliquando sea te. Dico case an ius. Nec graeci tibique ad, eos no nostrud admodum.</p>
+    </div>
         </>
     );
 }

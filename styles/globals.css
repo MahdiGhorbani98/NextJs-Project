@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.container{
+  /* text-align: center; */
+  padding: 0 5%;
+}
+
+.container h1{
+   color: brown;
+}

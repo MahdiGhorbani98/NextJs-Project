@@ -1,4 +1,6 @@
 import axios from "axios";
+import Link from "next/link";
+import styles from '../../styles/Datalist.module.css'
 
 // export const getStaticProps= async ()=>{
 //     let dataAx = await
@@ -19,17 +21,16 @@ export const getStaticProps = async ()=>{
     }
 }
 const index = ({nextData}) => {
-
     return (
-        <div>
+        <div className={styles.container}>
             <h1>Data List</h1>
             {
                 nextData.map(user =>(
-                    <div key={user.id}>
-                        <a>
-                            <h3>{user.name}</h3>
+                        <Link  href={'/datalist/' + user.id} key={user.id}>
+                        <a className={styles.a}>
+                            <h3 className={styles.links}>{user.name}</h3>
                         </a>
-                    </div>
+                        </Link>
                 ))
             }
         </div>

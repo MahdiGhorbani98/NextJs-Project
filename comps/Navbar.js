@@ -1,13 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from '../styles/Navbar.module.css'
+
 const Navbar = () => {
     return (
-        <div>
+        <div className={styles.container}>
             {/* <img src="/next.jpg" /> */}
-            <Image src="/next.jpg" width={102} height={102}/>
+            <Image src="/next.jpg" width={80} height={80}/>
+            <div className={styles.Link}>
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/datalist"><a>nextData</a></Link>
+            </div>
             <p>Welcome to Next.js</p>
         </div>
     );

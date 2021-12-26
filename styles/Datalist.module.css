@@ -1,0 +1,24 @@
+.links{
+    border-bottom: 3px solid royalblue;
+    /* margin-bottom: 10px; */
+    color: rgb(46, 56, 83);
+    /* width: 250px; */
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    color: brown;
+}
+
+.a{
+    height: 42px;
+}
