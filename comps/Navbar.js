@@ -10,7 +10,8 @@ const Navbar = () => {
             <div className={styles.Link}>
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
-            <Link href="/datalist"><a>nextData</a></Link>
+            <Link href="/datalist"><a>nextData(getStaticProps)</a></Link>
+            <Link href="/getServer"><a>nextData(getServerSideProps)</a></Link>
             </div>
             <p>Welcome to Next.js</p>
         </div>
